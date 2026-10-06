@@ -10,7 +10,7 @@
 
 **Plan A Date** is an AI-powered real-world outing planner built around a simple truth: our digital devices should help us disconnect and spend meaningful time with the people we care about.
 
-The word **“date”** does NOT only mean romance. An outing can be with:
+You can go on a **“date”** with:
 * ❤️ Someone special / partner
 * 🫶 Best friend
 * 👯 Friend
