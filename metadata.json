@@ -1,0 +1,10 @@
+{
+  "name": "Plan A Date",
+  "description": "An AI-powered real-world outing planner that transforms your time into memorable experiences with real nearby places and thoughtful touches.",
+  "requestFramePermissions": [
+    "geolocation"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
