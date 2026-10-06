@@ -107,55 +107,12 @@ Plan A Date is built around **open-weight AI principles with Gemma**:
 
 * **Frontend**: React 19, TypeScript, Tailwind CSS, Lucide icons, Leaflet.
 * **Backend**: Express (Node.js/tsx) providing server-side proxy routes for secure API calls.
-* **AI Model**: Google Gemma / Gemini API (`@google/genai`).
+* **AI Model**:Google Gemma (open-weight model), accessed through the Gemini API (@google/genai).
 * **Real-World Discovery**: SerpApi (Google Local engine) with automatic fallback to high-fidelity verified catalog and OpenStreetMap Nominatim reverse geocoding.
 
 ---
 
-## 7. Environment Variables
 
-Create a `.env` file in the root directory (see `.env.example`):
-
-```bash
-# GEMINI_API_KEY: Required for live Gemma / Gemini calls
-GEMINI_API_KEY="your_gemini_or_gemma_api_key_here"
-
-# SERPAPI_KEY: Optional for live SerpApi Google Local search queries
-# If not set, app operates in verified local catalog mode with real venues
-SERPAPI_KEY="your_serpapi_key_here"
-
-# Port (defaults to 3000)
-PORT=3000
-```
-
----
-
-## 8. Running Locally
-
-```bash
-# 1. Install dependencies
-npm install
-
-# 2. Start the development server (runs on port 3000)
-npm run dev
-
-# 3. Build for production
-npm run build
-
-# 4. Run in production
-npm run start
-```
-
----
-
-## 9. Demo & Offline Fallback Mode
-
-If API keys are not supplied:
-* The application runs smoothly in **Curated Verified Mode**.
-* Real places with verified coordinates and reviews in major hubs (Bengaluru, Mumbai, Delhi, San Francisco, New York, London, etc.) are used.
-* The deterministic composer formats valid itineraries with tailored Cherry on Top touches so you can test the full user flow without any blockers.
-
----
 
 ## 10. Limitations & Future Roadmap
 
